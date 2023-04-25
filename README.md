@@ -3,6 +3,9 @@ This repo represents a project to be dockerized. We have 1) a python script to r
 
 hello_world.py will import two of the libraries in our requirements.txt and print the versions. It also accepts an optional command-line argument `var`, which it will also print if found.
 
+Pre-reqs:
+Have Docker Desktop installed and running.
+
 <details>
   <summary>Spoilers for the hands-section</summary>
   <br>
