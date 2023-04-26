@@ -31,7 +31,7 @@ COPY job /job
 WORKDIR /job
 CMD ["python", "hello_world.py", "--var", "foo"]
 ```
-3. ```docker build --platform linux/amd64 -t demo``` -- platform arg is needed for M1/M2 chip compatibility
+3. ```docker build --platform linux/amd64 -t demo .``` -- platform arg is needed for M1/M2 chip compatibility
 4. ```docker run demo``` -- runs CMD from Dockerfile
 5. ```docker run -it demo bash``` -- `-it`=interactive mode -- ```docker run -it <image>:<tag> <cmd>```
 6. ```python hello_world.py --var bar```
